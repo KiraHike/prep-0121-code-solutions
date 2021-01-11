@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Basic Grid</title>
+  <style>
+    .container {
+      max-width: 1250px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .column {
+      max-width: 30%;
+      background-color:darkgray;
+      text-align: center;
+      margin: 5px;
+      padding: 5px;
+      border-style: hidden;
+      border-radius: 10px;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        In hendrerit ligula semper, efficitur mauris vel, dictum lacus.
+        Aliquam erat volutpat. Duis at arcu id risus placerat tempor.
+        Cras orci lorem, tristique sed placerat eu, fermentum.
+        </p>
+        <img src="images/left-image.jpg" alt="Stone Age Family">
+      </div>
+      <div class="column">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Nullam nec nunc nec lectus tincidunt cursus. Integer dapibus ac
+        tortor quis commodo. Pellentesque dictum sem ac ex malesuada
+        fringilla. Mauris ac sapien lorem. Phasellus malesuada
+        ullamcorper.
+        </p>
+        <img src="images/center-image.jpg" alt="Middle Age Rural Village">
+      </div>
+      <div class="column">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Nunc viverra blandit lorem nec mollis. Nam urna neque, tincidunt
+        in congue quis, volutpat eu leo. Duis non mauris consequat,
+        auctor quam a, aliquam sapien. Suspendisse potenti.
+        </p>
+        <img src="images/right-image.jpg" alt="Middle Age Family">
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
